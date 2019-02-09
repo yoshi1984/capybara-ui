@@ -7,7 +7,7 @@ Capybara.register_driver :selenium do |app|
 end
 
 session = Capybara::Session.new(:selenium)
-session.visit "https://localhost:3000" 
+session.visit "https://localhost:3000"
 
 binding.pry
 
